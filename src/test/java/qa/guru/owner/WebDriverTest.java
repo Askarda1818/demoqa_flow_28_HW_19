@@ -15,7 +15,7 @@ public class WebDriverTest {
 
     @BeforeEach
     public void startDriver(){
-        driver = getDriver();
+       // driver = getDriver();
     }
     @Test
     public  void testGithub(){
