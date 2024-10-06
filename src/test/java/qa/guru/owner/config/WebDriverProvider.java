@@ -10,10 +10,10 @@ import java.util.function.Supplier;
 public class WebDriverProvider implements Supplier<WebDriver> {
 
     public WebDriverProvider(){
-       this.config = new WebDriverConfig();
+       this.config = new WebDriverConfigOld();
     }
 
-    private final WebDriverConfig config;
+    private final WebDriverConfigOld config;
     @Override
     public WebDriver get(){
       WebDriver driver = createWebDriver();
